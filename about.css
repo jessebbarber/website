@@ -1,0 +1,28 @@
+.container{
+	width: 50%;
+	align-content:center;
+		padding-left: 70px;
+}
+
+img{
+	width: 240px;
+	border-style:solid;
+	border-color: black;
+	border-width: 1px;
+	float: center;
+	padding-left: 20px;
+}
+
+.cap{
+	width:600px;
+	line-height: 20px;
+}
+
+@media screen and (max-width: 650px) {
+.cap{
+	width:300px;
+}
+.container{
+	padding-left: 10px;
+}
+}
